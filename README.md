@@ -121,7 +121,7 @@ python src/main.py
 
 
 
-# Логи запуска системы
+### Логи запуска системы
 ```
 2026-05-31 22:45:21,613 | INFO | services.workflow_processor | Текущая рабочая директория: C:\Users\PC\MyDiplom\src
 2026-05-31 22:45:21,613 | INFO | services.workflow_processor | Инициализация Embedder, Rewriter, Store
