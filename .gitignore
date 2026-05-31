@@ -1,0 +1,12 @@
+.env
+.idea/
+logs/
+__pycache__/
+*.pyc
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.npy
+data/
+images/
