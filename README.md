@@ -79,12 +79,37 @@ BrSTU-digital-assistant/
 
 
 
-Для запуска системы необходимо:
-1. создать виртуальное окружение и скачать необходимые пакеты, описанные в reuirements.txt.
-2. запустить файл main.py
+## Запуск проекта
+
+Для запуска системы необходимо выполнить следующие шаги:
+
+1. Создать и активировать виртуальное окружение:
+
+```bash
+python -m venv .venv
+```
+
+2. Установить зависимости из файла requirements.txt:
+```bash
+pip install -r requirements.txt
+```
+
+3. Создать файл .env в корне проекта и указать необходимые переменные окружения:
+```bash
+TG_BOT_TOKEN=your_telegram_bot_token
+YC_API_KEY=your_yandex_cloud_api_key
+YC_FOLDER_ID=your_yandex_cloud_folder_id
+```
+
+4. Запустить основной файл проекта:
+
+```bash
+python src/main.py
+```
+
+После запуска система инициализирует Telegram-бота, подключит базу данных, загрузит необходимые компоненты RAG-модуля и начнёт обработку пользовательских сообщений.
 
 Примеры работы системы:
-
 
 <img width="476" height="442" alt="image" src="https://github.com/user-attachments/assets/548e2d5e-1834-44e6-81b2-57fc91533bd6" />
 
